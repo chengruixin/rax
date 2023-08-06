@@ -1,0 +1,24 @@
+{
+  "name": "rax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc src/responsive.ts --outDir .temp && node .temp/responsive.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengruixin/rax.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chengruixin/rax/issues"
+  },
+  "homepage": "https://github.com/chengruixin/rax#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "typescript": "^5.1.6"
+  }
+}

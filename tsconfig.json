@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "module": "commonjs",
+        "lib": ["dom", "es2018"],
+        // "outDir": "./build"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -2,9 +2,10 @@
   "name": "rax",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "tsc src/responsive.ts --outDir .temp && node .temp/responsive.js"
+    "test": "tsc src/index.ts --outDir client",
+    "serve": "serve client",
+    "rollup": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,17 @@
   },
   "homepage": "https://github.com/chengruixin/rax#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-typescript": "^7.22.5",
+    "@rollup/plugin-typescript": "^11.1.2",
     "@types/node": "^20.4.8",
+    "rollup": "^2.75.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "serve": "^14.2.0",
+    "tslib": "^2.6.1",
     "typescript": "^5.1.6"
   }
 }
